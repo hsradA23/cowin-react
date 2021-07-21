@@ -1,13 +1,93 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background: linear-gradient(-45deg, #291528, #402357);
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  color: #d8e1ff;
+  font-family: 'Poppins', sans-serif;
 }
+
+.main-page {
+  padding: 10vh 40vw 10vh;
+}
+
+.main-page form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+}
+
+.main-page form input {
+  position: relative;
+  width: 100%;
+  background-color: #D8E1FF;
+  border: none;
+  outline: #A1E887;
+  font-weight: 700;
+  margin: 10px 0px 10px 0px;
+  height: 38%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.output-page {
+  padding: 10vh 10vh 10vh;
+  font-size: 15px;
+}
+
+.output-page .output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+.output-page .output .out-div {
+  border: 1px solid #A1E887;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 40vw;
+}
+
+.output-page .output .out-div .heading {
+  color: #A1E887;
+  font-weight: 600;
+}
+
+.output-page .output .out-div .bigheading {
+  font-size: 22px;
+}
+
+.output-page .output .out-div .smallheading {
+  font-size: 18px;
+  display: inline;
+  margin: 0px 10px 0px 0px;
+}
+
+.output-page .back-button {
+  color: #4B2A66;
+  background-color: #80B192;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */
