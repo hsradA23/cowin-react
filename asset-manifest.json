@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cowin-react/static/css/main.02aa5412.chunk.css",
+    "main.js": "/cowin-react/static/js/main.63bc2ae3.chunk.js",
+    "main.js.map": "/cowin-react/static/js/main.63bc2ae3.chunk.js.map",
+    "runtime-main.js": "/cowin-react/static/js/runtime-main.6351e829.js",
+    "runtime-main.js.map": "/cowin-react/static/js/runtime-main.6351e829.js.map",
+    "static/js/2.ff0b549c.chunk.js": "/cowin-react/static/js/2.ff0b549c.chunk.js",
+    "static/js/2.ff0b549c.chunk.js.map": "/cowin-react/static/js/2.ff0b549c.chunk.js.map",
+    "index.html": "/cowin-react/index.html",
+    "static/css/main.02aa5412.chunk.css.map": "/cowin-react/static/css/main.02aa5412.chunk.css.map",
+    "static/js/2.ff0b549c.chunk.js.LICENSE.txt": "/cowin-react/static/js/2.ff0b549c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6351e829.js",
+    "static/js/2.ff0b549c.chunk.js",
+    "static/css/main.02aa5412.chunk.css",
+    "static/js/main.63bc2ae3.chunk.js"
+  ]
+}
